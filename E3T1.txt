@@ -1,0 +1,2 @@
+AWS Guard duty provides continuous monitoring of CloudTrail and other AWS logs for unusual activity patterns.
+In this case AWS Guard Duty did not detect any attacks, however, we can see that there is a large number of SSH login attempts in VPC Flow logs.
