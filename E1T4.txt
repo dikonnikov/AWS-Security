@@ -1,0 +1,12 @@
+# Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+Web Service Instance in public network. A good nstance role allows access to all S3 buckets. This should be more restrictive and follow the least priviledge policy.
+
+Web Serive Instance security group has enabled access to all ports from all IPs, this coiuld be used to exploit attacks.
+
+S3 bucket is not encrypted and accessed through public internet. A good prectice is to have at least default encryption enabled on all s3 buckets. S3 buckets could be accessed via AWS VPC Endpoint to avoid data transfer via public Internet.
+
+
+
+
+

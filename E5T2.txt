@@ -1,0 +1,20 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+Accurics is a tool that scans Infrastructure as a code files for misconfiguration, possibility of data breach and insecure policies. This tool allows scanning Terraform and Docker files.
+
+### Example vulnerability
+Exposed network configuration, overpermissive access policies, insecure infrastructure configurations.
+
+
+##Scan AMI’s or containers for OS vulnerabilities
+Anchore is a tool for inspecting container images for vulnerabilities. It allows scanning not only for common vulnerabilities and exploits, but also using cusom policies.
+
+### Example vulnerability
+Exploits and vulnerabilities in system libraries which could possibly allow to run malicious code or gain unauthorized access.
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+Skyhigh is a tool providing security monitoring, auditing, compliance and remediation features for AWS. 
+
+### Example vulnerability
+Security configuration, insider threat, compromised accounts, malicious activity. 

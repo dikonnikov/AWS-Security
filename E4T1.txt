@@ -1,0 +1,10 @@
+# Identify 2-3 changes that can be made to our environment to prevent an ssh brute force attack from the internet.
+- Disable SSH password login, so it would be impossible to carry out the brute force attack.
+- Move WebApp server to private network. Restrict SSH access to public subnets only and use bastion host to access it.
+
+
+# Neither instance should have had access to the secret recipes bucket, in the even that instance API credentials were compromised how could we have prevented access to sensitive data.
+
+- Enable encryption for the s3 buckets. 
+- Modify role policy for the webapp so that it only has access to free recipies bucket.
+
